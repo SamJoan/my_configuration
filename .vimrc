@@ -10,6 +10,7 @@ Plugin 'mbbill/undotree'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'saltstack/salt-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
