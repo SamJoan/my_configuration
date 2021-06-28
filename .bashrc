@@ -18,3 +18,5 @@
 # alias mv='mv -i'
 
 alias vim=nvim
+export HISTCONTROL=ignoreboth:erasedups
+
