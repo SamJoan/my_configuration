@@ -11,12 +11,13 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'saltstack/salt-vim'
+Plugin 'nikolvs/vim-sunbather'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 filetype plugin on
-colo darkblue
+colo sunbather
 syntax on
 set nospell
 set norelativenumber
@@ -43,3 +44,4 @@ autocmd BufNew,BufRead SConstruct setf python
 set textwidth=0 wrapmargin=0
 
 let g:go_highlight_trailing_whitespace_error=0
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|out'
