@@ -12,6 +12,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'saltstack/salt-vim'
 Plugin 'nikolvs/vim-sunbather'
+Plugin 'heavenshell/vim-jsdoc'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -44,4 +46,5 @@ autocmd BufNew,BufRead SConstruct setf python
 set textwidth=0 wrapmargin=0
 
 let g:go_highlight_trailing_whitespace_error=0
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|out'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|out'
+let g:jsdoc_formatter = "tsdoc"
