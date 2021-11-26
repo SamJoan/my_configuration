@@ -19,4 +19,8 @@
 
 alias vim=nvim
 export HISTCONTROL=ignoreboth:erasedups
+export HISTSIZE=100002
+export PROMPT_COMMAND='history -a'
 
+alias grep='grep --color=always'
+alias less='less -R'
