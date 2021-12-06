@@ -48,3 +48,4 @@ set textwidth=0 wrapmargin=0
 let g:go_highlight_trailing_whitespace_error=0
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|out'
 let g:jsdoc_formatter = "tsdoc"
+let g:ctrlp_working_path_mode = ''
